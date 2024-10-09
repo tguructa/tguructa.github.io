@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veesys - Empower Your Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        purple: {
+                            400: '#a78bfa',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-900 text-gray-100">
+    <!-- Header -->
+    <header class="px-4 lg:px-6 h-14 flex items-center border-b border-gray-800">
+        <a class="flex items-center justify-center" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+            </svg>
+            <span class="ml-2 text-2xl font-bold text-purple-400">Veesys</span>
+        </a>
+        <nav class="ml-auto flex gap-4 sm:gap-6">
+            <a class="text-sm font-medium hover:text-purple-400 transition-colors" href="#features">Features</a>
+            <a class="text-sm font-medium hover:text-purple-400 transition-colors" href="#pricing">Pricing</a>
+            <a class="text-sm font-medium hover:text-purple-400 transition-colors" href="#testimonials">Testimonials</a>
+        </nav>
+    </header>
+
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-800">
+            <div class="container px-4 md:px-6 mx-auto">
+                <div class="flex flex-col items-center space-y-4 text-center">
+                    <div class="space-y-2">
+                        <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-purple-400">
+                            Empower Your Business with Veesys
+                        </h1>
+                        <p class="mx-auto max-w-[700px] text-gray-300 md:text-xl">
+                            Streamline your operations, boost productivity, and scale your business with our cutting-edge SaaS solutions.
+                        </p>
+                    </div>
+                    <div class="space-x-4">
+                        <a href="#" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-purple-500 rounded-md hover:bg-purple-600 transition-colors">
+                            Get Started
+                        </a>
+                        <a href="#" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-purple-400 border border-purple-400 rounded-md hover:bg-purple-400 hover:text-gray-900 transition-colors">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+            <div class="container px-4 md:px-6 mx-auto">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12 text-purple-400">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-purple-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-purple-400 mb-2">Powerful Analytics</h3>
+                        <p class="text-gray-300">Gain deep insights into your business with our advanced analytics tools.</p>
+                    </div>
+                    <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-purple-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-purple-400 mb-2">Secure Infrastructure</h3>
+                        <p class="text-gray-300">Rest easy knowing your data is protected by state-of-the-art security measures.</p>
+                    </div>
+                    <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-purple-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-purple-400 mb-2">Seamless Integration</h3>
+                        <p class="text-gray-300">Easily integrate with your existing tools and workflows for maximum efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
+            <div class="container px-4 md:px-6 mx-auto">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12 text-purple-400">Flexible Pricing</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-900 border border-gray-700 rounded-lg p-6 flex flex-col">
+                        <h3 class="text-xl font-bold text-purple-400 mb-4">Starter</h3>
+                        <p class="text-4xl font-bold mb-4 text-gray-100">
+                            $29<span class="text-sm font-normal text-gray-300">/month</span>
+                        </p>
+                        <ul class="space-y-2 mb-6 flex-grow">
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Core Features
+                            </li>
+                        </ul>
+                        <a href="#" class="w-full bg-purple-500 text-white hover:bg-purple-600 transition-colors py-2 px-4 rounded text-center">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-900 border border-gray-700 rounded-lg p-6 flex flex-col">
+                        <h3 class="text-xl font-bold text-purple-400 mb-4">Pro</h3>
+                        <p class="text-4xl font-bold mb-4 text-gray-100">
+                            $99<span class="text-sm font-normal text-gray-300">/month</span>
+                        </p>
+                        <ul class="space-y-2 mb-6 flex-grow">
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Core Features
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Advanced Analytics
+                            </li>
+                        </ul>
+                        <a href="#" class="w-full bg-purple-500 text-white hover:bg-purple-600 transition-colors py-2 px-4 rounded text-center">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-900 border border-gray-700 rounded-lg p-6 flex flex-col">
+                        <h3 class="text-xl font-bold text-purple-400 mb-4">Enterprise</h3>
+                        <p class="text-4xl font-bold mb-4 text-gray-100">Custom</p>
+                        <ul class="space-y-2 mb-6 flex-grow">
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Core Features
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                Advanced Analytics
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <svg class="w-4 h-4 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                24/7 Support
+                            </li>
+                        </ul>
+                        <a href="#" class="w-full bg-purple-500 text-white hover:bg-purple-600 transition-colors py-2 px-4 rounded text-center">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+            <div class="container px-4 md:px-6 mx-auto">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12 text-purple-400">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                        <p class="mb-4 text-gray-300">"Veesys has transformed the way we operate. Their SaaS solution is intuitive, powerful, and has significantly boosted our productivity."</p>
+                        <p class="font-semibold text-purple-400">Alex Johnson</p>
+                        <p class="text-sm text-gray-400">CEO, TechCorp</p>
+                    </div>
+                    <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                        <p class="mb-4 text-gray-300">"The analytics provided by Veesys have given us invaluable insights into our business. It's been a game-changer for our decision-making process."</p>
+                        <p class="font-semibold text-purple-400">Sarah Lee</p>
+                        <p class="text-sm text-gray-400">CTO, InnovateCo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- Footer -->
+    <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-800">
+        <p class="text-xs text-gray-400">© 2024 Veesys. All rights reserved.</p>
+        <nav class="sm:ml-auto flex gap-4 sm:gap-6">
+            <a class="text-xs hover:text-purple-400 transition-colors" href="#">Terms of Service</a>
+            <a class="text-xs hover:text-purple-400 transition-colors" href="#">Privacy</a>
+        </nav>
+    </footer>
+</body>
+</html>
